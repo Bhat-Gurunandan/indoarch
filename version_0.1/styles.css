@@ -1,0 +1,24 @@
+td{
+ font-family: verdana, Geneva, Arial, Helvetica, sans-serif;
+ font-size: 8pt;
+ color: #404040;
+}
+
+p{
+ font-family: verdana, Geneva, Arial, Helvetica, sans-serif;
+ font-size: 8pt;
+ color: #404040;	
+}
+
+a:link {
+	color: #333366;
+} 
+a:visited {
+	color: #05519B;
+} 
+a:hover {
+	color: Black;
+} 
+a:active {
+	color: #05519B;
+} 

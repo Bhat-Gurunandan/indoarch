@@ -1,0 +1,10 @@
+<?
+$dbhost = "localhost";
+$dbuser = "gerard";
+$dbpassword = "gerard";
+$dbname = "gerard";
+$thumbnailwidth = 200;
+$imagedirname = '/var/www/html/book/images/';
+$insideurl = 'http://localhost/book/insideindia.php";
+$outsideurl = "http://localhost/book/outsideindia.php";
+?>

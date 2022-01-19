@@ -1,0 +1,80 @@
+@font-face {
+    font-family: "BowlbyOne";
+    src: url('BowlbyOne-Regular.eot');
+    src: url('BowlbyOne-Regular.eot?#iefix') format('embedded-opentype'),
+         url('BowlbyOne-Regular.woff') format('woff'),
+         url('BowlbyOne-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Faustina";
+    src: url('Faustina-Regular.eot');
+    src: url('Faustina-Regular.eot?#iefix') format('embedded-opentype'),
+         url('Faustina-Regular.woff') format('woff'),
+         url('Faustina-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Monda";
+    src: url('Monda-Regular.eot');
+    src: url('Monda-Regular.eot?#iefix') format('embedded-opentype'),
+         url('Monda-Regular.woff') format('woff'),
+         url('Monda-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Playball";
+    src: url('Playball-Regular.eot');
+    src: url('Playball-Regular.eot?#iefix') format('embedded-opentype'),
+         url('Playball-Regular.woff') format('woff'),
+         url('Playball-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SignikaNegative";
+    src: url('SignikaNegative-Regular.eot');
+    src: url('SignikaNegative-Regular.eot?#iefix') format('embedded-opentype'),
+         url('SignikaNegative-Regular.woff') format('woff'),
+         url('SignikaNegative-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: "SignikaNegativeSemiBold";
+    src: url('SignikaNegative-SemiBold.eot');
+    src: url('SignikaNegative-SemiBold.eot?#iefix') format('embedded-opentype'),
+         url('SignikaNegative-SemiBold.woff') format('woff'),
+         url('SignikaNegative-SemiBold.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "FiraSans";
+    src: url('FiraSans-Regular.eot');
+    src: url('FiraSans-Regular.eot?#iefix') format('embedded-opentype'),
+         url('FiraSans-Regular.woff') format('woff'),
+         url('FiraSans-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "FiraSansSemiBold";
+    src: url('FiraSans-SemiBold.eot');
+    src: url('FiraSans-SemiBold.eot?#iefix') format('embedded-opentype'),
+         url('FiraSans-SemiBold.woff') format('woff'),
+         url('FiraSans-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}

@@ -3,10 +3,12 @@
   <head>
     <title>Basilica Do Bom Jesus</title>
     <meta charset="utf-8">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
     <link href="fonts/fonts.css" rel="stylesheet" crossorigin="anonymous">
     <link href="css/stylesheet.css" rel="stylesheet" crossorigin="anonymous">
+    <link href="css/maps.css" rel="stylesheet" crossorigin="anonymous">
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -39,12 +41,13 @@
       <h1>Architecture <span class="cursive">of the</span><br \>
 	Indian Subcontinent</h1>
       <div class="row">
-        <div class="col-lg-4">
-	  <h4>Explore around Old Goa</h4?>
-        </div>
-        <div class="col-lg-4">
+        <div class="col-lg-5 order-lg-2">
           <h2>Basilica Do Bom Jesus</h2>
-          <h3>Old Goa &nbsp; ▇&nbsp;   Goa &nbsp; ▇ &nbsp; Central India</h3>
+          <h3>
+	    <a href="#">Khandagiri and Udayagiri <span class="uparrow">⟰</span></a> &nbsp;▇&nbsp;
+	    <a href="#">Himachal Pradesh <span class="uparrow">⟰</span></a> &nbsp;▇&nbsp;
+	    <a href="#">Central India <span class="uparrow">⟰</span></a>
+	  </h3>
           <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
               <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -82,7 +85,11 @@
             preserved in a chapel in the Basilica.
           </p>
         </div>
-        <div class="col-lg-4">
+        <div class="col-lg-4 order-lg-1">
+	  <h4>Explore Old Goa</h4>
+	  <div id="map"></div>
+        </div>
+        <div class="col-lg-3 order-lg-3">
           <h4>In and Around Goa</h4>
           <ul>
             <li>Goa
@@ -99,5 +106,10 @@
       </div>
     </div>
     <script src="js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBZkwjoQKTtJeIq4JzUM3UBEITe-n5yaMo&callback=initMap&v=weekly"
+      async
+      ></script>
+    <script src="js/maps.js"></script>
   </body>
 </html>
